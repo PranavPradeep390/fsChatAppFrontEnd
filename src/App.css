@@ -1,0 +1,94 @@
+.chatborder{
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin: auto;
+  /* position: fixed;
+  z-index: 200; */
+}
+.whtapp{
+  /* background-image: url(./assets/chatbg.jpg);  */
+  background-image: url("https://www.shutterstock.com/image-vector/mobile-apps-pattern-musicchatgalleryspeaking-bubbleemailmagnifying-600nw-249638665.jpg");
+  margin: 163px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+}
+.chatpart{
+  
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 540px;
+  max-height: 500px;
+  padding: 0px;
+  margin: 0px;
+  overflow-y: auto;
+}
+
+*{
+  overflow-x: hidden;
+ 
+}
+.msg{
+  border-top-right-radius: 90px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+}
+.msg2{
+  border-top-left-radius: 90px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+}
+.textmsg{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.inpbx{
+  width: 100%;
+  border-radius: 5px;
+  border: 0px;
+  background-color: rgb(221, 235, 248);
+}
+.snt{
+  margin-top: -5px;
+  border-radius: 50%;
+  border: 0px;
+  background-color: brown;
+}
+.watermark{
+  margin-top: -50px;
+  margin-bottom: 150px;
+
+}
+.b1{
+  padding: 2px;
+  width: 200px;
+  background-color: lightblue;
+  font-size: 80%;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
+#chats{
+  font-size: larger;
+}
+#chats2{
+  background-color: lightblue;
+  border-radius: 40px;
+  font-weight: 500;
+
+ 
+
+}
+
